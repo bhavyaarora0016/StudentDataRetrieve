@@ -1,0 +1,16 @@
+﻿﻿                  RETRIEVE STUDENT DATA FROM A FILE
+
+Steps:
+
+Step 1 : Import System.IO Package for using the FILEHANDLING Classes and objects.
+Step 2 : Create a file using the File.Create() Method by giving the file Name. if we don’t specify a path the default bin/Debug folder is selected and the file is created.  (File Name: StudentData.txt).
+Step 3 : Enter some data inside the studentData.txt File.
+Step 4 : Create a object for File Stream Class and pass 3 parameters the first parameter is the file path with File Name 
+         in the second one we need to specify the File Mode in this case File Mode is OPEN and Finally we need give the access for that file so we pass FileAccess.Read.
+Step 5 : Write a While Loop for reading the data inside the File Line by Line. 
+         If the data is Null the we reached the last line of that File.
+Step 6 : If the data is not Null we write Student Name in the Console.
+
+
+GitHub Link:
+
